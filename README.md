@@ -83,9 +83,9 @@ collected from 600 female patients aged 25–75.
 | Normal | 133 | 17.1% |
 | **Total** | **780** | **100%** |
 
-![Class Distribution](assets/class_distribution.png)
+![Class Distribution](TEST_TRAIN_SPLIT.JPG)
 
-![Sample Images](assets/samples.JPG)
+![Sample Images](samples.JPG)
 
 **Train / Test Split (85% / 15%, stratified):**
 
