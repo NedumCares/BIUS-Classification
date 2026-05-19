@@ -83,8 +83,6 @@ collected from 600 female patients aged 25–75.
 | Normal | 133 | 17.1% |
 | **Total** | **780** | **100%** |
 
-![Class Distribution](TEST_TRAIN_SPLIT.JPG)
-
 ![Sample Images](samples.JPG)
 
 **Train / Test Split (85% / 15%, stratified):**
@@ -96,7 +94,7 @@ collected from 600 female patients aged 25–75.
 | Normal | 113 | 20 |
 | **Total** | **663** | **117** |
 
-![Train Test Split](assets/train_test_split.png)
+![Train Test Split](TEST_TRAIN_SPLIT.JPG)
 
 Download the dataset from Kaggle:
 [BUSI Dataset](https://www.kaggle.com/datasets/aryashah2k/breast-ultrasound-images-dataset)
@@ -123,20 +121,19 @@ Download the dataset from Kaggle:
 
 > ✅ No malignant case was misclassified as normal — the most dangerous clinical error.
 
-![Classification Report](assets/classification_report.png)
+![Classification Report](results.JPG)
 
 ### Confusion Matrix & F1 Scores
 
-![Test Evaluation](assets/test_evaluation.png)
 
 ### Training Curves
 
 Global best checkpoint: **Fold 1, Epoch 44** (validation loss = 0.0693)
 Mean 5-fold validation loss: **0.1075 ± 0.0300**
 
-![Loss Accuracy Curves](assets/loss_accuracy_curves.png)
+![Loss Accuracy Curves](curves.JPG)
 
-![Best Fold Loss](assets/best_fold_loss.png)
+![Best Fold Loss](bestfold.JPG)
 
 ### Comparison with State-of-the-Art (BUSI Dataset)
 
@@ -298,9 +295,9 @@ If you use this code or find it helpful in your research, please cite:
   title   = {HADS-Net: A Hybrid Attention-Augmented Dual-Stream Network
              with Physics-Informed Augmentation for Breast Ultrasound
              Image Classification},
-  author  = {[Your Name]},
-  journal = {[Target Journal]},
-  year    = {2025}
+  author  = {[Chinedu Emmanuel Mbonu, Blessing Nwamaka Iduh, Joseph Ikechukwu Odo, Doris Chinedu Asogwa]},
+  journal = {[Arxiv]},
+  year    = {2026}
 }
 ```
 
