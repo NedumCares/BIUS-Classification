@@ -51,7 +51,7 @@ HADS-Net solves all three by combining:
 
 ## Architecture
 
-![HADS-Net Pipeline](assets/pipeline.png)
+![HADS-Net Pipeline](pipeline.JPG)
 
 The training pipeline consists of two parallel streams:
 
@@ -85,7 +85,7 @@ collected from 600 female patients aged 25–75.
 
 ![Class Distribution](assets/class_distribution.png)
 
-![Sample Images](assets/sample_images.png)
+![Sample Images](assets/samples.JPG)
 
 **Train / Test Split (85% / 15%, stratified):**
 
